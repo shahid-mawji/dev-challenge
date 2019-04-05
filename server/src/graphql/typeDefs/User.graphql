@@ -11,5 +11,7 @@ type User {
   name: String!
   email: String
   color: Color
+  address: Address
+  company: Company
   friends: [User!]
 }
